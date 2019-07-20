@@ -46,7 +46,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Oyuncu\HareketController.cs" />
+     <Compile Include="Assets\Scripts\Oyuncu\Blok Script\ZeminBlok.cs" />
+     <Compile Include="Assets\Scripts\Oyuncu\Kamera Script\SmoothFollow.cs" />
+     <Compile Include="Assets\Scripts\Oyuncu\Oyuncu Script\BaseController.cs" />
+     <Compile Include="Assets\Scripts\Oyuncu\Oyuncu Script\OyuncuController.cs" />
      <None Include="Assets\Models\Military\Materials\UnlitVertexColour_Alpha.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

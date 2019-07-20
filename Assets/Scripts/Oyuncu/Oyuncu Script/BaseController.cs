@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HareketController : MonoBehaviour {
+public class BaseController : MonoBehaviour {
 
 	public Vector3 hizVektoru;
 	public float x_Hiz = 8, z_Hiz = 15;
 	public float hizlanma = 15, yavaslama = 10;
-	protected float acisalHiz = 10;
+	protected float rotasyonHizi = 10;
 	protected float maksimumAci = 10;
 
 	public float dusukSes, normalSes, yuksekSes;
